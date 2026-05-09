@@ -1,2 +1,2 @@
 # 07-JapanHelpCard
-開発したapp
+開発したアプリ
