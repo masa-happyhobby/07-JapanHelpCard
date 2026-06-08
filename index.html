@@ -1,292 +1,331 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Japan Help Card app review page for App Store reviewers.">
-    <title>Japan Help Card - App Review Information</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <nav class="nav" aria-label="Page sections">
-        <a class="brand" href="#top">
-          <!-- Replace docs/assets/app-icon.png if the production icon changes. -->
-          <img src="assets/app-icon.png" alt="Japan Help Card app icon" class="brand-icon">
-          <span>Japan Help Card</span>
-        </a>
-        <div class="nav-links">
-          <a href="#purpose">Purpose</a>
-          <a href="#features">Features</a>
-          <a href="#iap">IAP</a>
-          <a href="#screenshots">Screenshots</a>
-          <a href="#privacy">Privacy</a>
-          <a href="#review">Review</a>
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Japan Help Card support, privacy, and App Store Review information page.">
+  <title>Japan Help Card | Support & App Review Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Page sections">
+      <a class="brand" href="#top" aria-label="Japan Help Card top page">
+        <img src="assets/app-icon.png" alt="Japan Help Card app icon" class="brand-icon" onerror="this.style.display='none';">
+        <span>Japan Help Card</span>
+      </a>
+      <div class="nav-links">
+        <a href="#purpose">Purpose</a>
+        <a href="#features">Features</a>
+        <a href="#iap">In-App Purchase</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#review">Review Notes</a>
+        <a href="#support">Support</a>
+      </div>
+    </nav>
+  </header>
 
-    <main id="top">
-      <section class="hero section">
-        <div class="hero-copy">
-          <p class="eyebrow">App Store Review Page</p>
-          <h1>Show Japanese help cards when you need assistance in Japan.</h1>
-          <p class="lead">
-            Japan Help Card helps foreign travelers, international students, workers, and residents communicate common non-food problems in Japanese without typing or speaking fluent Japanese.
-          </p>
-          <div class="hero-actions" aria-label="Primary app facts">
-            <a class="button" href="#review">Review Notes</a>
-            <a class="button secondary" href="#iap">In-App Purchase</a>
+  <main id="top">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Support & App Store Review Page</p>
+        <h1 id="hero-title">Show clear Japanese help cards in everyday trouble situations in Japan.</h1>
+        <p class="lead">
+          Japan Help Card is a communication aid for foreign travelers and residents in Japan. It provides prepared Japanese phrases that users can show to station staff, hotel staff, pharmacy staff, police officers, medical reception desks, or people nearby when typing or speaking Japanese is difficult.
+        </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button" href="#review">Read Review Notes</a>
+          <a class="button secondary" href="#iap">View Pro Purchase</a>
+        </div>
+      </div>
+
+      <aside class="app-summary" aria-label="App summary">
+        <img src="assets/app-icon.png" alt="Japan Help Card app icon" class="app-icon-large" onerror="this.style.display='none';">
+        <div class="fact-list">
+          <div>
+            <p class="label">App Name</p>
+            <p class="value">Japan Help Card</p>
+          </div>
+          <div>
+            <p class="label">Primary Use</p>
+            <p class="value">Show-only Japanese assistance cards</p>
+          </div>
+          <div>
+            <p class="label">Business Model</p>
+            <p class="value">Free basic cards + one-time Lifetime Pro purchase</p>
+          </div>
+          <div>
+            <p class="label">Account</p>
+            <p class="value">No account required for this build</p>
           </div>
         </div>
+      </aside>
+    </section>
 
-        <aside class="app-summary" aria-label="App identity">
-          <img src="assets/app-icon.png" alt="Japan Help Card app icon" class="app-icon-large">
-          <div class="fact-list">
-            <div>
-              <p class="label">App Name</p>
-              <p class="value">Japan Help Card</p>
-            </div>
-            <div>
-              <p class="label">Business Model</p>
-              <p class="value">Free basic cards + one-time Pro purchase</p>
-            </div>
-          </div>
-        </aside>
-      </section>
+    <section id="purpose" class="section" aria-labelledby="purpose-title">
+      <div class="section-heading">
+        <p class="eyebrow">Purpose</p>
+        <h2 id="purpose-title">A simple communication tool for non-food situations</h2>
+        <p>
+          The app helps users communicate common problems in Japan by displaying large, readable Japanese phrases with English context. It is designed for practical situations such as transportation, lost items, hotel communication, pharmacy questions, daily help, and disaster-related assistance.
+        </p>
+      </div>
 
-      <section id="purpose" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Purpose</p>
-          <h2>Designed for non-food trouble in Japan</h2>
-          <p>
-            The app is a collection of simple cards users can show to people nearby. Each card displays a clear Japanese phrase with English context, and Pro users can view additional translations and use voice playback.
-          </p>
-        </div>
+      <div class="grid three">
+        <article class="info-card">
+          <h3>Prepared phrases</h3>
+          <p>Users choose a category and open a card. Each card shows a Japanese phrase large enough to show directly to someone nearby.</p>
+        </article>
+        <article class="info-card">
+          <h3>Stressful situations</h3>
+          <p>The app avoids complicated input during travel trouble. Users can use preset cards for lost wallets, train questions, hotel help, symptoms, and emergency contact needs.</p>
+        </article>
+        <article class="info-card safe">
+          <h3>Communication aid only</h3>
+          <p>The app does not diagnose, treat, dispatch emergency services, provide legal advice, or replace official emergency and disaster information.</p>
+        </article>
+      </div>
+    </section>
 
-        <div class="grid three">
-          <article class="info-card">
-            <h3>Medical and daily help</h3>
-            <p>Cards for fever, stomach pain, ambulance requests, hospital search, restrooms, Wi-Fi, charging, and general help.</p>
-          </article>
-          <article class="info-card">
-            <h3>Travel and public safety</h3>
-            <p>Cards for trains, taxis, lost wallet, lost passport, police station, hotel communication, disasters, and evacuation shelters.</p>
-          </article>
-          <article class="info-card">
-            <h3>Show-only communication</h3>
-            <p>The primary use case is showing a large Japanese phrase on screen to a station staff member, hotel staff member, pharmacist, police officer, or person nearby.</p>
-          </article>
-        </div>
-      </section>
+    <section id="features" class="section" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">Current App Features</p>
+        <h2 id="features-title">What reviewers can test in this release</h2>
+      </div>
 
-      <section id="features" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Current App Features</p>
-          <h2>What reviewers can test in this build</h2>
-        </div>
+      <div class="grid two">
+        <article class="info-card">
+          <h3>Free features</h3>
+          <ul>
+            <li>Home screen with English guidance for foreign users in Japan</li>
+            <li>Quick help cards for common stressful situations</li>
+            <li>Category browsing for medical communication, transport, lost items, hotel, disaster, shopping, and daily help</li>
+            <li>Large Japanese card detail screen with English explanation</li>
+            <li>Favorites for frequently used cards</li>
+            <li>Japan emergency number reference section</li>
+            <li>Recommendation link to Allergy Card Japan when food allergy or dietary restriction support is needed</li>
+          </ul>
+        </article>
 
-        <div class="grid two">
-          <article class="info-card">
-            <h3>Free features</h3>
-            <ul>
-              <li>Home screen with English-first guidance for foreign users</li>
-              <li>Quick SOS cards for stressful situations</li>
-              <li>Category browsing for medical, transport, lost items, hotel, disaster, shopping, and daily help</li>
-              <li>Large Japanese card detail screen with English explanation</li>
-              <li>Favorites for saved cards</li>
-              <li>Emergency numbers for Japan</li>
-              <li>Allergy Card Japan recommendation for allergy and dietary searches</li>
-            </ul>
-          </article>
+        <article class="info-card highlight">
+          <h3>Lifetime Pro features</h3>
+          <ul>
+            <li>Additional translations for supported languages, including English, Chinese, and Korean</li>
+            <li>Japanese phrase voice playback</li>
+            <li>Custom cards in the My Cards area</li>
+            <li>Optional Traveler Info Card for hotel name, emergency contact, and notes</li>
+            <li>Optional emergency profile notes that can be shown with help cards</li>
+            <li>Restore purchase support for the same Apple ID</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-          <article class="info-card highlight">
-            <h3>Lifetime Pro features</h3>
-            <ul>
-              <li>Multiple language translations, including English, Chinese, and Korean</li>
-              <li>Voice playback for Japanese phrases</li>
-              <li>Custom cards in the My Cards tab</li>
-              <li>Traveler Info Card with optional hotel and emergency contact details</li>
-              <li>Emergency profile notes attached to help cards</li>
-              <li>Local-first saved card use for travel situations where typing is difficult</li>
-            </ul>
-          </article>
-        </div>
-      </section>
+    <section class="section split" aria-labelledby="separate-app-title">
+      <div>
+        <p class="eyebrow">Separate Scope</p>
+        <h2 id="separate-app-title">Food allergy cards are intentionally not duplicated</h2>
+        <p>
+          Japan Help Card focuses on non-food assistance, including medical communication, transportation, lost items, hotels, disasters, shopping, and daily trouble. Food allergy and dietary restriction support is handled by the separate Allergy Card Japan app.
+        </p>
+      </div>
+      <a class="external-app" href="https://apps.apple.com/jp/app/allergy-card-japan/id6758872779" target="_blank" rel="noopener" aria-label="Open Allergy Card Japan on the App Store">
+        <span class="external-icon" aria-hidden="true">＋</span>
+        <span>
+          <strong>Allergy Card Japan</strong>
+          <small>Dedicated food allergy and dietary restriction cards</small>
+        </span>
+      </a>
+    </section>
 
-      <section class="section split">
+    <section id="iap" class="section" aria-labelledby="iap-title">
+      <div class="section-heading">
+        <p class="eyebrow">In-App Purchase</p>
+        <h2 id="iap-title">Lifetime Pro is a one-time non-consumable purchase</h2>
+        <p>
+          Pro is implemented as a non-consumable in-app purchase. The app does not offer an auto-renewable subscription in this release.
+        </p>
+      </div>
+
+      <div class="purchase-panel" aria-label="In-app purchase details">
         <div>
-          <p class="eyebrow">Allergy Card Japan</p>
-          <h2>Food allergy cards are intentionally separate</h2>
-          <p>
-            Japan Help Card focuses on non-food situations: medical symptoms, transportation, lost items, disasters, hotels, shopping, and daily trouble.
-            If a user searches for allergy or dietary restriction keywords, the app recommends Allergy Card Japan instead of duplicating that app's purpose.
-          </p>
+          <p class="label">Product Type</p>
+          <p class="value">Non-consumable</p>
         </div>
-        <a class="external-app" href="https://apps.apple.com/jp/app/allergy-card-japan/id6758872779" aria-label="Open Allergy Card Japan on the App Store">
-          <span class="external-icon">+</span>
-          <span>
-            <strong>Download Allergy Card Japan</strong>
-            <small>Dedicated food allergy and dietary restriction cards</small>
-          </span>
-        </a>
-      </section>
-
-      <section id="iap" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">In-App Purchase</p>
-          <h2>Lifetime Pro is a one-time purchase</h2>
-          <p>
-            Pro is implemented as a non-consumable in-app purchase. The app does not offer a subscription plan.
-          </p>
+        <div>
+          <p class="label">Reference Name</p>
+          <p class="value">Japan Help Card Pro Unlock</p>
         </div>
-
-        <div class="purchase-panel">
-          <div>
-            <p class="label">Product Type</p>
-            <p class="value">Non-consumable</p>
-          </div>
-          <div>
-            <p class="label">Restore</p>
-            <p class="value">Available from the Pro screen with the same Apple ID</p>
-          </div>
+        <div>
+          <p class="label">Product ID</p>
+          <p class="value"><span class="code">com.muramatsu.japanhelpcard.pro.unlock</span></p>
         </div>
-
-        <div class="grid two">
-          <article class="info-card">
-            <h3>How to test purchase</h3>
-            <ol>
-              <li>Open the Pro tab.</li>
-              <li>Tap Unlock Lifetime Pro.</li>
-              <li>Complete the StoreKit or sandbox purchase dialog.</li>
-              <li>Confirm the button changes to Pro is unlocked.</li>
-              <li>Open a card detail screen and confirm voice playback, translations, and emergency profile access.</li>
-            </ol>
-          </article>
-
-          <article class="info-card">
-            <h3>How to test restore</h3>
-            <ol>
-              <li>Open the Pro tab.</li>
-              <li>Tap Restore Purchase.</li>
-              <li>Sign in with the same Apple ID if the system asks.</li>
-              <li>Confirm Pro features unlock when the non-consumable purchase is found.</li>
-            </ol>
-          </article>
+        <div>
+          <p class="label">Restore</p>
+          <p class="value">Available from the Pro screen</p>
         </div>
-      </section>
+      </div>
 
-      <section id="screenshots" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Screenshots</p>
-          <h2>Reviewer screenshot slots</h2>
-          <p>
-            Place production screenshots in <span class="code">docs/assets/</span> using the file names below before publishing the GitHub Pages site.
-          </p>
-        </div>
+      <div class="grid two">
+        <article class="info-card">
+          <h3>How to test purchase</h3>
+          <ol>
+            <li>Open the Pro tab.</li>
+            <li>Tap “Unlock Lifetime Pro”.</li>
+            <li>Complete the StoreKit or sandbox purchase dialog.</li>
+            <li>Confirm that the Pro screen shows the unlocked state.</li>
+            <li>Open a card detail screen and confirm Pro-only features such as voice playback, added translations, My Cards, and Traveler Info Card access.</li>
+          </ol>
+        </article>
 
-        <div class="screenshot-grid">
-          <figure class="screenshot-slot" data-placeholder="Home screenshot">
-            <!-- Insert screenshot: docs/assets/JapanHelpCard_home.png -->
-            <img src="assets/JapanHelpCard_home.png" alt="Home screen screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
-            <figcaption>Home: Quick SOS cards, emergency numbers, search, and category browsing</figcaption>
-          </figure>
-          <figure class="screenshot-slot" data-placeholder="Card detail screenshot">
-            <!-- Insert screenshot: docs/assets/JapanHelpCard_card-detail.png -->
-            <img src="assets/JapanHelpCard_card-detail.png" alt="Card detail screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
-            <figcaption>Card Detail: Large Japanese phrase for showing to someone nearby</figcaption>
-          </figure>
-          <figure class="screenshot-slot" data-placeholder="My Cards screenshot">
-            <!-- Insert screenshot: docs/assets/JapanHelpCard_my-cards.png -->
-            <img src="assets/JapanHelpCard_my-cards.png" alt="My Cards screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
-            <figcaption>My Cards: Optional traveler information and custom cards</figcaption>
-          </figure>
-          <figure class="screenshot-slot" data-placeholder="Pro screenshot">
-            <!-- Insert screenshot: docs/assets/JapanHelpCard_pro.png -->
-            <img src="assets/JapanHelpCard_pro.png" alt="Pro purchase screen screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
-            <figcaption>Pro: One-time Lifetime Pro purchase and restore controls</figcaption>
-          </figure>
-        </div>
-      </section>
+        <article class="info-card">
+          <h3>How to test restore</h3>
+          <ol>
+            <li>Open the Pro tab.</li>
+            <li>Tap “Restore Purchase”.</li>
+            <li>Sign in with the same Apple ID if the system asks.</li>
+            <li>Confirm that Pro features are restored when the non-consumable purchase is found.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
 
-      <section id="privacy" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Privacy and Safety</p>
-          <h2>Optional personal information stays local</h2>
-          <p>
-            The app does not require account registration. Optional personal information, such as hotel name, emergency contact, medical notes, medicines, passport memo, and custom cards, is stored locally on the user's device.
-          </p>
-        </div>
+    <section id="privacy" class="section" aria-labelledby="privacy-title">
+      <div class="section-heading">
+        <p class="eyebrow">Privacy and Safety</p>
+        <h2 id="privacy-title">Optional notes are designed to stay on the user's device</h2>
+        <p>
+          Japan Help Card does not require account registration. Optional personal notes are entered by the user only when they choose to create custom cards or traveler information.
+        </p>
+      </div>
 
-      <section id="support" class="section">
-        <div class="container">
-          <h2 class="sectionTitle">Support</h2>
-          <div class="card box">
-            <p class="muted">For bug reports and feedback:</p>
-            <ul class="muted">
-              <li>Email: <a href="mailto:hobby-happymylife-info@hobby-happymylife.com">hobby-happymylife-info@hobby-happymylife.com</a></li>
-              <li>GitHub Issues: <a href="https://github.com/YOUR_ACCOUNT/YOUR_REPO/issues" target="_blank" rel="noopener">Open an issue</a></li>
-            </ul>
-            <p class="muted">
-              Please include: device model, iOS version, and steps to reproduce.
-            </p>
-          </div>
-        </div>
-      </section>
-        
-        <div class="grid three">
-          <article class="info-card">
-            <h3>No account required</h3>
-            <p>Users can open and use the core card experience without creating an account, logging in, or connecting to a backend account system.</p>
-          </article>
-          <article class="info-card">
-            <h3>Local-first notes</h3>
-            <p>Custom cards and emergency profile notes are optional. Users can leave sensitive fields blank and can delete emergency information in the app.</p>
-          </article>
-          <article class="info-card">
-            <h3>No professional advice</h3>
-            <p>The app helps communication only. It does not provide medical diagnosis, legal advice, disaster instructions, or emergency service advice.</p>
-          </article>
-        </div>
-      </section>
+      <table class="privacy-table" aria-label="Privacy summary">
+        <tbody>
+          <tr>
+            <th scope="row">Account registration</th>
+            <td>No account is required to open and use the app in this build.</td>
+          </tr>
+          <tr>
+            <th scope="row">Optional user-entered data</th>
+            <td>Custom cards, hotel name, emergency contact, medicines, medical notes, and free-text notes are optional and can be left blank.</td>
+          </tr>
+          <tr>
+            <th scope="row">Storage approach</th>
+            <td>Optional notes are intended for local device use. They are not part of a public community or social posting feature.</td>
+          </tr>
+          <tr>
+            <th scope="row">Medical and emergency limitation</th>
+            <td>The app supports communication only. It does not provide diagnosis, treatment, drug dosage calculation, emergency dispatch, legal advice, or official disaster instructions.</td>
+          </tr>
+          <tr>
+            <th scope="row">User control</th>
+            <td>Users can edit or delete custom cards and optional emergency profile information in the app.</td>
+          </tr>
+        </tbody>
+      </table>
 
-      <section id="review" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Review Notes</p>
-          <h2>Information for App Store Review</h2>
-        </div>
+      <div class="notice" style="margin-top:16px;">
+        <strong>Important safety note:</strong> In dangerous or urgent situations, users should directly contact local emergency services or follow instructions from public authorities. Japan Help Card is not a replacement for emergency services, medical professionals, police, or official disaster information.
+      </div>
+    </section>
 
-        <div class="review-list">
-          <article>
-            <h3>Reviewer access</h3>
-            <p>No demo account is required. Free features are available immediately after launch. Pro features can be tested through StoreKit or an App Store sandbox purchase.</p>
-          </article>
-          <article>
-            <h3>Network and external links</h3>
-            <p>Core help-card content is bundled with the app. StoreKit is used for purchase and restore. The Allergy Card Japan recommendation opens the App Store link only when the user chooses it.</p>
-          </article>
-          <article>
-            <h3>Emergency limitation</h3>
-            <p>Japan Help Card is a communication aid. Users should contact local emergency services directly in dangerous or urgent situations.</p>
-          </article>
-          <article>
-            <h3>Data collection summary</h3>
-            <p>The app does not require user registration. Optional notes are saved on device. No server-side account, chat, or community feature is included in this build.</p>
-          </article>
-          <article>
-            <h3>Content scope</h3>
-            <p>The app intentionally avoids food allergy and dietary restriction cards to avoid overlap with Allergy Card Japan. It focuses on non-food assistance in Japan.</p>
-          </article>
-          <article>
-            <h3>Support contact</h3>
-            <p>Please use the App Store Connect review contact information for direct reviewer questions.</p>
-          </article>
-        </div>
-      </section>
-    </main>
+    <section id="screenshots" class="section" aria-labelledby="screenshots-title">
+      <div class="section-heading">
+        <p class="eyebrow">Screenshots</p>
+        <h2 id="screenshots-title">Reviewer screenshot slots</h2>
+        <p>
+          Place production screenshots in <span class="code">docs/assets/</span> using the file names below before publishing this page with GitHub Pages or another support URL.
+        </p>
+      </div>
 
-    <footer class="footer">
-      <p>Japan Help Card - App review information page</p>
-    </footer>
-  </body>
+      <div class="screenshot-grid">
+        <figure class="screenshot-slot" data-placeholder="Home screenshot">
+          <img src="assets/JapanHelpCard_home.png" alt="Home screen screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
+          <figcaption>Home: Quick help cards, emergency numbers, search, and category browsing</figcaption>
+        </figure>
+        <figure class="screenshot-slot" data-placeholder="Card detail screenshot">
+          <img src="assets/JapanHelpCard_card-detail.png" alt="Card detail screen screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
+          <figcaption>Card Detail: Large Japanese phrase for showing to someone nearby</figcaption>
+        </figure>
+        <figure class="screenshot-slot" data-placeholder="My Cards screenshot">
+          <img src="assets/JapanHelpCard_my-cards.png" alt="My Cards screen screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
+          <figcaption>My Cards: Optional traveler information and custom cards</figcaption>
+        </figure>
+        <figure class="screenshot-slot" data-placeholder="Pro screenshot">
+          <img src="assets/JapanHelpCard_pro.png" alt="Pro purchase screen screenshot" onerror="this.closest('figure').classList.add('is-missing'); this.remove();">
+          <figcaption>Pro: One-time Lifetime Pro purchase and restore controls</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="review" class="section" aria-labelledby="review-title">
+      <div class="section-heading">
+        <p class="eyebrow">Review Notes</p>
+        <h2 id="review-title">Information for App Store Review</h2>
+      </div>
+
+      <div class="review-list">
+        <article>
+          <h3>Reviewer access</h3>
+          <p>No demo account is required. Free features are available immediately after launch. Pro features can be tested with StoreKit or an App Store sandbox purchase.</p>
+        </article>
+        <article>
+          <h3>Core content and network use</h3>
+          <p>Core help-card content is bundled with the app. StoreKit is used for purchase and restore. The Allergy Card Japan link opens the App Store only when the user chooses it.</p>
+        </article>
+        <article>
+          <h3>In-app purchase visibility</h3>
+          <p>The Pro tab explains that Lifetime Pro is a one-time purchase. The purchase button and restore button are visible from the Pro screen.</p>
+        </article>
+        <article>
+          <h3>Emergency limitation</h3>
+          <p>Japan Help Card is a communication aid. It does not call emergency services automatically and does not replace local authorities, medical professionals, police, or official disaster guidance.</p>
+        </article>
+        <article>
+          <h3>Medical limitation</h3>
+          <p>Medical-related cards are limited to communication phrases such as symptoms, hospital reception, pharmacy questions, and request-for-help text. The app does not diagnose, treat, recommend medicine, or calculate dosage.</p>
+        </article>
+        <article>
+          <h3>Privacy summary</h3>
+          <p>The app does not require account registration. Optional custom cards and traveler notes are entered by the user and are intended for local device use. No social, chat, or public user-generated content feature is included in this release.</p>
+        </article>
+        <article>
+          <h3>Content scope</h3>
+          <p>The app intentionally avoids duplicating food allergy and dietary restriction cards. Those needs are handled by the separate Allergy Card Japan app.</p>
+        </article>
+        <article>
+          <h3>Support contact</h3>
+          <p>For reviewer questions, please use the App Store Connect review contact information or the support email listed below.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="support" class="section" aria-labelledby="support-title">
+      <div class="section-heading">
+        <p class="eyebrow">Support</p>
+        <h2 id="support-title">Contact</h2>
+        <p>
+          For bug reports, support requests, and review questions, please contact the developer by email.
+        </p>
+      </div>
+
+      <div class="grid two">
+        <article class="info-card">
+          <h3>Email support</h3>
+          <p><a href="mailto:hobby-happymylife-info@hobby-happymylife.com">hobby-happymylife-info@hobby-happymylife.com</a></p>
+          <p>Please include the device model, iOS version, app version, and steps to reproduce when reporting a bug.</p>
+        </article>
+        <article class="info-card">
+          <h3>Recommended App Store metadata</h3>
+          <p>Use this page as the Support URL. For the Privacy Policy URL, use either this page's privacy section or a dedicated privacy policy page if you publish one separately.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© Japan Help Card. Support and App Store Review information page.</p>
+  </footer>
+</body>
 </html>
